@@ -43,7 +43,7 @@ resource "google_compute_instance" "chat" {
 }
 
 
-/*resource "google_compute_instance" "perroquet" {
+resource "google_compute_instance" "perroquet" {
   name         = "perroquet"
   machine_type = "f1-micro"
   zone         = "us-east1-b"
